@@ -29,16 +29,29 @@
 .aim{
 	background-image:url(https://www.misshillhsschool.edu.in/img/about-us.jpg);
 }
+.firstabout{
+	background-image:url(https://www.misshillhsschool.edu.in/img/parallax.png);
+	background-color:#f0f0f0;
+}
 .heading{
 	font-family: 'Raleway';
-    color: #f27c66;
-    background-color: #f0f0f0;
-    width:35%;
-    margin-top:50px;
-    margin-bottom:40px;
-    padding-top:10px;
-    padding-bottom:10px;
-    border-radius:10px 5px;
+  color: #f27c66;
+  background-color: #f0f0f0;
+  width:35%;
+  margin-top:50px;
+ 	margin-bottom:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:10px 5px;
+}
+@media(max-width:760px){
+	.head{
+		font-family: 'Raleway';
+  	color: #f27c66;  
+  	width:100%;
+  	padding-top:10px;
+  	border-radius:10px 5px;
+	}
 }
 @media(max-width:760px){
 	.heading{
@@ -86,7 +99,7 @@
 	}
 }
 .sparagraph{
-	color:#dee7f0;
+	color:indianred;
 	line-height:0px;
 	margin-top:15px;
 }
