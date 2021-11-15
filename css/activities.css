@@ -1,0 +1,98 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Raleway';
+}
+.a{
+  margin-right:100px;
+}
+@media(max-width: 760px){
+  .a{
+    margin-right:0px;
+  }
+}
+.marq{
+  background-color:#303f63;
+  height:50px;
+  color:white;
+}
+.t{
+  margin-left:60px;
+  width:250px;
+}
+@media(max-width:760px){
+  .t{
+    margin-left: 0px;
+    width:150px;
+  }
+}
+.aim{
+  background-image:url(https://www.misshillhsschool.edu.in/img/about-us.jpg);
+}
+.firstabout{
+  background-image:url(https://www.misshillhsschool.edu.in/img/parallax.png);
+  background-color:#f0f0f0;
+}
+.heading{
+  font-family: 'Raleway';
+  color: #f27c66;
+  background-color: #f0f0f0;
+  width:35%;
+  margin-top:50px;
+  margin-bottom:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:10px 5px;
+}
+@media(max-width:760px){
+  .head{
+    font-family: 'Raleway';
+    color: #f27c66;  
+    width:100%;
+    padding-top:10px;
+    border-radius:10px 5px;
+  }
+}
+@media(max-width:760px){
+  .heading{
+    padding:5px;
+    margin-top:20px;
+    width:50%;
+    margin-bottom:25px;
+    font-size: 30px;
+      font-weight: 400;
+      font-family: 'Raleway';
+      color: #f27c66;
+      background-color: #f0f0f0;
+  }
+}
+.path{
+  color:white;
+  text-align:center;
+}
+/* navbar css end */
+
+/*image div start*/
+
+.sidenavbar{
+  color:white;
+  font-size:15px;
+  font-weight:bold;
+  background-color:#18bb7c;
+  padding:15px;
+  border-radius: 10px 5px;
+}
+.sidenavbar:hover{
+  cursor:pointer;
+  color:black;
+}
+@media(max-width: 760px){
+  .sidenavbar{
+    padding-right:70%;
+    border-radius: 10px 5px;
+    font-size:18px;
+  }
+}
+.imgg{
+  margin-top:30px;
+}

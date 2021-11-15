@@ -1,0 +1,191 @@
+*{
+  margin:0px;
+  padding:0px;
+  font-family: 'Raleway';
+}
+.a{
+  margin-right:100px;
+}
+@media(max-width: 760px){
+  .a{
+    margin-right:0px;
+  }
+}
+.marq{
+  background-color:#303f63;
+  height:50px;
+  color:white;
+}
+.t{
+  margin-left:60px;
+  width:250px;
+}
+@media(max-width:760px){
+  .t{
+    margin-left: 0px;
+    width:150px;
+  }
+}
+.aim{
+  background-image:url(https://www.misshillhsschool.edu.in/img/about-us.jpg);
+}
+.firstabout{
+  background-image:url(https://www.misshillhsschool.edu.in/img/parallax.png);
+  background-color:#f0f0f0;
+}
+.heading{
+  font-family: 'Raleway';
+  color: #f27c66;
+  background-color: #f0f0f0;
+  width:35%;
+  margin-top:50px;
+  margin-bottom:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:10px 5px;
+}
+@media(max-width:760px){
+  .head{
+    font-family: 'Raleway';
+    color: #f27c66;  
+    width:100%;
+    padding-top:10px;
+    border-radius:10px 5px;
+  }
+}
+@media(max-width:760px){
+  .heading{
+    padding:5px;
+    margin-top:20px;
+    width:50%;
+    margin-bottom:25px;
+    font-size: 30px;
+      font-weight: 400;
+      font-family: 'Raleway';
+      color: #f27c66;
+      background-color: #f0f0f0;
+  }
+}
+.path{
+  color:white;
+  text-align:center;
+}
+/* navbar css end */
+
+/* procedure start */
+.firstabout{
+  background-image:url(https://www.misshillhsschool.edu.in/img/parallax.png);
+  background-color:#f0f0f0;
+}
+.heading{
+  font-family: 'Raleway';
+  color: #f27c66;
+  background-color: #f0f0f0;
+  width:35%;
+  margin-top:50px;
+  margin-bottom:40px;
+  padding-top:10px;
+  padding-bottom:10px;
+  border-radius:10px 5px;
+}
+@media(max-width:760px){
+  .head{
+    font-family: 'Raleway';
+    color: #f27c66;  
+    width:100%;
+    padding-top:10px;
+    border-radius:10px 5px;
+  }
+}
+@media(max-width:760px){
+  .heading{
+    padding:5px;
+    margin-top:20px;
+    width:50%;
+    margin-bottom:25px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Raleway';
+    color: #f27c66;
+    background-color: #f0f0f0;
+  }
+}
+.content-heading{
+  margin-top:20px;
+  margin-bottom:10px;
+}
+.img{
+  border:2px solid gray;
+  padding:5px;
+}
+@media(max-width: 760px){
+  .img{
+    border:2px solid gray;
+    padding:5px;
+    margin-bottom:20px;   
+  }
+}
+.paragraph1{
+  text-align:justify;
+  margin-top:15px;
+}
+@media(max-width: 760px){
+  .paragraph1{
+    height:300px;
+    width:100%;
+    overflow:auto;
+  }
+}
+
+table, th, td{
+  border: 1px solid black;
+  border-collapse:collapse;
+}
+.table{
+  text-align:center;
+}
+@media(max-width:760px){
+  .table{
+    text-align: center;
+  }
+}
+
+/*footer start*/
+
+.b{
+  margin-top:25px;
+  padding:15px;
+  border-radius:15px 0px;
+  margin-bottom:30px;
+  background-color: #f27c66;
+    color:white;
+    line-height: 25px;
+    font-size: 25px;
+}
+.c ul{
+  list-style-type:none;
+}
+li{
+  color:lightgray;
+  line-height:30px;
+}
+.c ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.paragraph{
+  color:lightgray;
+  list-style-type:none;
+}
+.paragraph a{
+  text-decoration:none;
+}
+.footer-last{
+  background-color:black;
+  color:lightgray;
+}
+
